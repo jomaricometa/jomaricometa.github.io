@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.hero-image {
+  background-image: url("img.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-shadow: 2px 2px5px #000000;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px #000000;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Comet Board Shop</h1>
+    <h3 style="font-size:30px">Skate & Destroy</h3>
+  </div>
+</div>
+
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="service.html">Services</a>
+   <a href="contact.html">Contacts</a>
+  <a href="shop.html" style="float:right">Shop Now</a>
+</div>
+
+<div class="row">
+
+
+
+    <div class="card">
+      <h2>Keep calm and keep on pushing</h2>
+      <h3>Skate or die</h3>
+	
+ 
+	  
+	  <center>
+	  
+	    <div class="leftcolumn">
+      <video style ="border:2px solid gray; width="500" height="300" controls>
+  <source src="1.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+</center>
+      <p>Reasons why you should skate</p>
+      <p>Known as perhaps one of the most awesome extreme sports, professional skateboarding takes pride in a number of disputes, such as vertical and basically street-style events. Skateboarding signifies something different with regard to every person. Consider this – you could possibly represent riding a vert ramp, technical acts within the driveway, using a skateboard all around campus, bombing a slope which have immersed curves, slalom, skate park or perhaps even something else you enjoy engaging in on a board which have wheels nailed towards the bottom.</p>
+    </div>
+
+    <div class="card">
+      <h2 style ="text-align: center; font-size: 30px;">Benefits of skating</h2>
+ 
+       <img src ="img5.jpg" style="height:130px; width: 33%">
+	   <img src ="img6.jpg" style="height:130px; width: 33%">
+	   <img src ="img7.jpg" style="height:130px; width: 33%">
+      <h3>What skateboarding can do to your health</h3>
+      <p>Skateboarding is a sport, an art form, a lifestyle, and a culture. Kids have been doing it for decades, and it has even become an extreme sport. We can all, however, benefit from skateboarding, even if we’re not bombing halfpipes and grinding down rails. Not only does skateboarding get us outside, but it is a fun and effective way to get from point A to point B. Make sure you have the proper equipment to protect against injury and accomplish your goals!</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+  <center>
+    <div style ="width: 500px; background-color: #fff;  box-shadow: 2px 2px 5px #000000; class= card">
+      <h2>About Me</h2>
+      <img src ="img1.jpg" style="height:130px;">
+      <p>Way back 2014, that time I knew to my self that I have a connection playing longboarding. And becaused of my friend "Bren Lunas". He is the one who put me and give me courage to do an extreme sport like longboarding. And I am thankful about it, because of that I interact more to people. </p>
+    </div>
+	<center>
+	
+    <div style ="width: 500px; background-color: #fff;  box-shadow: 2px 2px 5px #000000; class= card">
+      <h3>Popular Boards</h3>
+	  <a href ="#"><img src ="img2.jpg" style="height:130px;"></a>
+	   <a href ="#"><img src ="img3.jpg" style="height:130px;"></a>
+	   <a href ="#"><img src ="img4.jpg" style="height:130px;"></a>
+    </div>
+    <div style ="width: 500px; background-color: #fff;  box-shadow: 2px 2px 5px #000000; class= card">
+      <h3>Follow Me</h3>
+      <p>Jomari_cometa@yahoo.com</p>
+	  
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
